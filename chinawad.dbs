@@ -8,15 +8,6 @@ maps
 	MAP01
 	{
 		
-		fieldtypes
-		{
-			
-			sector
-			{
-				rotationceiling = 1;
-			}
-		}
-		
 		resources
 		{
 			
@@ -47,9 +38,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 1591.929f;
-		viewpositiony = 320.4937f;
-		viewscale = 1.856464f;
+		viewpositionx = 1689.335f;
+		viewpositiony = 299.7778f;
+		viewscale = 2.413403f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -60,7 +51,21 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 16f;
+			gridsize = 8f;
+		}
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+			}
+			
+			sector
+			{
+				rotationceiling = 1;
+			}
 		}
 		
 		scriptdocuments
