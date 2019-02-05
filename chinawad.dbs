@@ -20,11 +20,11 @@ maps
 				notfortesting = 0;
 			}
 		}
-		defaultfloortexture = "FLOOR0_1";
+		defaultfloortexture = "FLAT5_3";
 		defaultceiltexture = "F_SKY1";
-		defaulttoptexture = "STARTAN2";
-		defaultwalltexture = "STARTAN2";
-		defaultbottomtexture = "STARTAN2";
+		defaulttoptexture = "CHINA1";
+		defaultwalltexture = "CHINA1";
+		defaultbottomtexture = "CHINA1";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -38,9 +38,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = 1689.335f;
-		viewpositiony = 299.7778f;
-		viewscale = 2.413403f;
+		viewpositionx = -359.0697f;
+		viewpositiony = 25.68382f;
+		viewscale = 1.098498f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -65,6 +65,15 @@ maps
 			sector
 			{
 				rotationceiling = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
 			}
 		}
 		
@@ -88,7 +97,35 @@ maps
 				tabtype = 0;
 				scripttype = 1;
 				caretposition = 18;
+			}
+			
+			document2
+			{
+				filename = "C:\\Users\\bogda\\Desktop\\ezdoom\\chinawad\\chinawad.wad\\DECORATE";
+				hash = 574926174;
+				resource = "C:\\Users\\bogda\\Desktop\\ezdoom\\chinawad\\chinawad.wad";
+				tabtype = 1;
+				scripttype = 3;
+				caretposition = 63;
 				activetab = true;
+			}
+			
+			document3
+			{
+				filename = "C:\\Users\\bogda\\Desktop\\ezdoom\\chinawad\\chinawad.wad\\SNDINFO";
+				hash = 859908204;
+				resource = "C:\\Users\\bogda\\Desktop\\ezdoom\\chinawad\\chinawad.wad";
+				tabtype = 1;
+				scripttype = 14;
+			}
+			
+			document4
+			{
+				filename = "C:\\Users\\bogda\\Desktop\\ezdoom\\chinawad\\chinawad.wad\\TEXTURES";
+				hash = 295799679;
+				resource = "C:\\Users\\bogda\\Desktop\\ezdoom\\chinawad\\chinawad.wad";
+				tabtype = 1;
+				scripttype = 8;
 			}
 		}
 	}
